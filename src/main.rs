@@ -11,3 +11,14 @@ fn main() {
     println!("El valor de Y es: {}", c);
     println!("El valor de PI es: {}", PI);
 }
+
+
+fn main(){
+    let a = [1, 2, 3, 4, 5];
+
+    let primero = a[0];
+    let tercero = a[2];
+
+    print!("El primer elemento de la lista es: {primero}");
+    print!("El tercer elemento de la lista es: {tercero}");
+}
