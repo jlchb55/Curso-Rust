@@ -1,4 +1,4 @@
-fn main() {
+/*fn main() {
 
     const PI: f32 = 3.1416;
     let x = 3;
@@ -15,14 +15,13 @@ fn main() {
     println!("El valor de Y es: {}", c);
     println!("El valor de PI es: {}", PI);
 
-    let a = [1.5, 2.7, 3.6, 4.3, 5.7];
-    let b = [1, 2, 3, 4, 5];
+
+fn main(){
+    let a = [1, 2, 3, 4, 5];
 
     let primero = a[0];
     let tercero = a[2];
 
-    print!("El primer elemento de la lista es: {primero}\n");
+    print!("El primer elemento de la lista es: {primero}");
     print!("El tercer elemento de la lista es: {tercero}");
-}//
-
-
+}
